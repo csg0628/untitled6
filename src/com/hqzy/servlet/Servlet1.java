@@ -15,6 +15,7 @@ public class Servlet1 extends HttpServlet {
         System.out.println("dd");
         System.out.println("cui 111111111111111");
         System.out.println("cui 222222222222222");
+        System.out.println("master 33333333333333");
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
