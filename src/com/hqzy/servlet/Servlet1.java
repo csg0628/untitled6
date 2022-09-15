@@ -13,6 +13,7 @@ import java.io.IOException;
 public class Servlet1 extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         System.out.println("dd");
+        System.out.println("cui 111111111111111");
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
