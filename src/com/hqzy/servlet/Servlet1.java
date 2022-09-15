@@ -12,7 +12,7 @@ import java.io.IOException;
         initParams = {@WebInitParam(name = "encoding",value = "utf-8")})
 public class Servlet1 extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-
+        System.out.println("dd");
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
