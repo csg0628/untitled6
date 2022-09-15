@@ -12,7 +12,7 @@ import java.io.IOException;
         initParams = {@WebInitParam(name = "encoding",value = "utf-8")})
 public class Servlet1 extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-
+        System.out.println("cui 111111111111111");
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
